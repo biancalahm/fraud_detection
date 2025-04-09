@@ -1,0 +1,15 @@
+matplotlib
+seaborn
+numpy
+pandas==1.4.2
+dotenv
+psutil
+matplotlib==3.5.1
+tensorflow==2.13.1
+keras==2.13.1
+keras-tuner==1.4.7
+kt-legacy==1.0.5
+libclang==18.1.1
+scikit-learn==1.1.1
+scipy==1.10.1
+
