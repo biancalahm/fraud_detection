@@ -11,23 +11,23 @@ Este projeto tem como objetivo construir um modelo preditivo capaz de classifica
 5. **Avaliação**
 6. **Implantação**
 
-## 1. 🧠 Problema de Negócio
+## 1.  Problema de Negócio
 
 Uma instituição financeira identificou um aumento nas fraudes em transações. Além das perdas financeiras, essas ações comprometem a confiança dos clientes e a reputação do banco. Para mitigar esse risco, será desenvolvido um modelo preditivo que identifique padrões fraudulentos e antecipe transações suspeitas.
 
-### 🎯 Objetivos:
+### Objetivos:
 
 * Analisar padrões de comportamento em transações para identificar atividades suspeitas
 * Construir um modelo preditivo com alta acurácia
 * Gerar insights que ajudem a criar novas regras de prevenção
 
-## 2. 📊 Entendimento dos Dados
+## 2. Entendimento dos Dados
 
 * **Fonte dos dados**: [Kaggle – Fraud Detection Dataset](https://www.kaggle.com/datasets/ranjitmandal/fraud-detection-dataset-csv)
 * **Volume**: 51.000+ transações rotuladas (fraude ou legítima)
 * **Atributos**: Comportamento do usuário, detalhes da transação, métodos de pagamento, tipo de dispositivo, entre outros
 
-## 3. 🧹 Preparação dos Dados
+## 3. Preparação dos Dados
 
 Inclui:
 
@@ -36,31 +36,25 @@ Inclui:
 * Codificação de variáveis
 * Normalização e escalonamento
 
-## 4. 🤖 Modelagem
+## 4.  Modelagem
 
 Modelos utilizados:
 
-* Regressão Logística
-* Support Vector Machines (SVM)
-* K-Nearest Neighbors
-* Árvore de Decisão
-* Random Forest
+* A definir
 
 **Técnicas de Validação**: `train_test_split`, `StratifiedKFold`, `cross_val_score`
 
-## 5. 📈 Avaliação
+## 5. Avaliação
 
 * Métricas de desempenho: Acurácia, Precisão, Recall, F1-Score, AUC-ROC
 * Comparação entre modelos
 * Análise de importância de atributos
 
-## 6. 🚀 Implantação
+## 6. Implantação
 
-Embora fora do escopo inicial, este modelo pode ser integrado a sistemas antifraude em tempo real, ou servir como ferramenta de apoio à decisão para analistas de segurança financeira.
+Fluxo MLops 
 
 ## 📂 Estrutura do Projeto
-
-
 
 ```
 fraud_detection/
@@ -75,3 +69,8 @@ fraud_detection/
 ```
 
 ## Bibliotécas utilizadas
+
+```bash
+ pip install -r requirements.txt
+
+```
